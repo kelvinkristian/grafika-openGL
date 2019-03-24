@@ -1,0 +1,10 @@
+
+Compile Command
+g++ -o test test.cpp -lglut -lGLU -lGL
+
+
+Sudo needed
+
+sudo apt-get install mesa-common-dev
+sudo apt-get install freeglut3-dev
+sudo apt-get install libglew-dev
