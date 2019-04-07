@@ -254,7 +254,7 @@ GLvoid DrawGLScene()
     glVertex3f(0.55, 0.4, 0.2);
     glVertex3f( 0.55, 0.2, 0.2);
 
-    /* back of cube.*/
+     // back of cube.
     glVertex3f(0.6, 0.2, 0.8);
     glVertex3f(0.6, 0.5, 0.8);
     glVertex3f(0.6, 0.5, 0.2);
@@ -306,7 +306,93 @@ GLvoid DrawGLScene()
     glVertex3f(1.8, 0.5, 0.8);
     glVertex3f(2.2, 0.4, 0.8);
     glVertex3f(2.2, 0.2, 0.8);
+
+    glColor3f(0, 0, 0);
+    glVertex3f(1.8, 0.503, 0.3);
+    glVertex3f(1.8, 0.503, 0.32);
+    glVertex3f(2.2, 0.403, 0.32);
+    glVertex3f(2.2, 0.403, 0.3);
+
+    glVertex3f(1.8, 0.5, 0.3);
+    glVertex3f(1.8, 0.5, 0.32);
+    glVertex3f(2.2, 0.4, 0.32);
+    glVertex3f(2.2, 0.4, 0.3);
+
+    glVertex3f(1.8, 0.503, 0.3);
+    glVertex3f(1.8, 0.5, 0.3);
+    glVertex3f(2.2, 0.4, 0.3);
+    glVertex3f(2.2, 0.403, 0.3);
+
+    glVertex3f(1.8, 0.503, 0.32);
+    glVertex3f(1.8, 0.5, 0.32);
+    glVertex3f(2.2, 0.4, 0.32);
+    glVertex3f(2.2, 0.403, 0.32);
+
+    // 
+
+    glVertex3f(2.2, 0.403, 0.49);
+    glVertex3f(2.2, 0.403, 0.51);
+    glVertex3f(2.2, 0.4, 0.51);
+    glVertex3f(2.2, 0.4, 0.49);
+
+    glVertex3f(1.8, 0.503, 0.49);
+    glVertex3f(1.8, 0.503, 0.51);
+    glVertex3f(2.2, 0.403, 0.51);
+    glVertex3f(2.2, 0.403, 0.49);
+
+    glVertex3f(1.8, 0.5, 0.49);
+    glVertex3f(1.8, 0.5, 0.51);
+    glVertex3f(2.2, 0.4, 0.51);
+    glVertex3f(2.2, 0.4, 0.49);
+
+    glVertex3f(1.8, 0.503, 0.49);
+    glVertex3f(1.8, 0.5, 0.49);
+    glVertex3f(2.2, 0.4, 0.49);
+    glVertex3f(2.2, 0.403, 0.49);
+
+    glVertex3f(1.8, 0.503, 0.51);
+    glVertex3f(1.8, 0.5, 0.51);
+    glVertex3f(2.2, 0.4, 0.51);
+    glVertex3f(2.2, 0.403, 0.51);
+
+    glVertex3f(2.2, 0.403, 0.49);
+    glVertex3f(2.2, 0.403, 0.51);
+    glVertex3f(2.2, 0.4, 0.51);
+    glVertex3f(2.2, 0.4, 0.49);
+
+    // 
+
+    glVertex3f(2.2, 0.403, 0.68);
+    glVertex3f(2.2, 0.403, 0.7);
+    glVertex3f(2.2, 0.4, 0.7);
+    glVertex3f(2.2, 0.4, 0.68);
+
+    glVertex3f(1.8, 0.503, 0.68);
+    glVertex3f(1.8, 0.503, 0.7);
+    glVertex3f(2.2, 0.403, 0.7);
+    glVertex3f(2.2, 0.403, 0.68);
+
+    glVertex3f(1.8, 0.5, 0.68);
+    glVertex3f(1.8, 0.5, 0.7);
+    glVertex3f(2.2, 0.4, 0.7);
+    glVertex3f(2.2, 0.4, 0.68);
+
+    glVertex3f(1.8, 0.503, 0.68);
+    glVertex3f(1.8, 0.5, 0.68);
+    glVertex3f(2.2, 0.4, 0.68);
+    glVertex3f(2.2, 0.403, 0.68);
+
+    glVertex3f(1.8, 0.503, 0.7);
+    glVertex3f(1.8, 0.5, 0.7);
+    glVertex3f(2.2, 0.4, 0.7);
+    glVertex3f(2.2, 0.403, 0.7);
+
+    glVertex3f(2.2, 0.403, 0.68);
+    glVertex3f(2.2, 0.403, 0.7);
+    glVertex3f(2.2, 0.4, 0.7);
+    glVertex3f(2.2, 0.4, 0.68);
 //******************MIDDLE BODY************************************
+    glColor3f(r, g, b);          /* Set The Color To Blue*/   
     glVertex3f( 0.6, 0.5, 0.8);
     glVertex3f(0.6, 0.2, 0.8);
     glVertex3f(1.8, 0.2, 0.8);
