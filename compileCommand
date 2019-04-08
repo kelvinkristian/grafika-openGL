@@ -4,7 +4,7 @@ g++ -o test test.cpp -lglut -lGLU -lGL
 
 Compile Command Windows
 g++ -c -o test.o test.cpp -I"C:\MinGW\include"
-g++ -o test.exe test.o -L"C:\MinGW\lib" -lfreeglut -lopengl32 -Wl,--subsystem,windows
+g++ -o test.exe test.o -L"C:\MinGW\lib" -lglu32 -lglut32 -lfreeglut -lopengl32 -Wl,--subsystem,windows
 
 
 Sudo needed
